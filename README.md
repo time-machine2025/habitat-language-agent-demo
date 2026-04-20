@@ -50,17 +50,6 @@ Language instruction
 python3 -m unittest discover -s tests -q
 ```
 
-## Why This Repository Helps
-
-It demonstrates the full embodied pipeline clearly:
-
-1. parse a language instruction
-2. ground object and receptacle references
-3. plan with structured high-level actions
-4. execute those actions in a navigable world
-5. benchmark against a random baseline
-
-That makes it a good portfolio repository even before plugging into the real Habitat stack.
 
 ## What Is Honest About It
 
