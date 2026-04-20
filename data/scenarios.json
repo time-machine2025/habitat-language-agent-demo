@@ -1,0 +1,26 @@
+[
+  {
+    "name": "kitchen_delivery",
+    "instruction": "pick up the mug in the kitchen and place it on the table in the living room",
+    "agent": [0, 0],
+    "objects": {"mug": [1, 1]},
+    "receptacles": {"table": [4, 4]},
+    "blocked": [[2, 1], [2, 2], [2, 3], [3, 3]]
+  },
+  {
+    "name": "study_cleanup",
+    "instruction": "pick up the book in the study and place it on the shelf in the hallway",
+    "agent": [5, 0],
+    "objects": {"book": [4, 1]},
+    "receptacles": {"shelf": [1, 4]},
+    "blocked": [[2, 0], [2, 1], [2, 2], [3, 2]]
+  },
+  {
+    "name": "counter_to_sofa",
+    "instruction": "pick up the remote in the kitchen and place it on the sofa in the living room",
+    "agent": [0, 5],
+    "objects": {"remote": [1, 4]},
+    "receptacles": {"sofa": [4, 1]},
+    "blocked": [[2, 2], [2, 3], [3, 3], [4, 3]]
+  }
+]
